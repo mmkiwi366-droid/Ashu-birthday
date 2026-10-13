@@ -166,3 +166,698 @@
 </script>
 </body>
 </html>
+<!-- ===== PART 2: LETTER + CAT BRAINROT + REASONS ===== -->
+
+<!-- PAGE 3: HEARTFELT LETTER -->
+<section class="page" id="page3">
+
+  <div class="eyebrow">a little note from my heart</div>
+
+  <h2>Dear Ashu, ♡</h2>
+
+  <div class="letter-card">
+    <p>
+      Happy Birthday, Ashu! 🎂💗
+    </p>
+
+    <br>
+
+    <p>
+      Pata hai, kuch log life mein aise aate hain
+      jo bina kuch special kiye bhi sab kuch
+      thoda sa better bana dete hain.
+    </p>
+
+    <br>
+
+    <p>
+      Tum bhi unhi logon mein se ho. Tumhari
+      smile, tumhari baatein, aur tumhara woh
+      silly sa nature... sab kuch apne aap mein
+      special hai. 🥹
+    </p>
+
+    <br>
+
+    <p>
+      Main bas yahi wish karti hoon ki tumhari
+      life khushiyon se bhari rahe. Tumhare
+      saare dreams poore hon, tum hamesha haste
+      raho, aur tumhe woh sab mile jo tum deserve
+      karte ho.
+    </p>
+
+    <br>
+
+    <p>
+      Aur haan, bade ho rahe ho iska matlab
+      yeh nahi ki apni pagalpan wali harkatein
+      band kar dena. Woh bilkul allowed nahi hai. 😭😂
+    </p>
+
+    <br>
+
+    <p>
+      Thank you for being YOU.
+      Duniya mein tum jaise ho, waise hi rehna.
+    </p>
+
+    <br>
+
+    <p>
+      Once again, happiest birthday, Ashu! 🎀
+    </p>
+
+    <br>
+
+    <p class="letter-sign">
+      With lots of wishes and a little madness ♡
+    </p>
+  </div>
+
+  <button class="primary-btn" onclick="goToPage(4)">
+    Abhi aur bhi hai 👀 →
+  </button>
+
+  <button class="secondary-btn" onclick="goToPage(2)">
+    ← Back to Envelope
+  </button>
+
+</section>
+
+
+<!-- PAGE 4: CAT BRAINROT -->
+<section class="page" id="page4">
+
+  <div class="eyebrow">very important birthday news</div>
+
+  <h2>Certified Birthday Cat 🐱</h2>
+
+  <p class="subtitle">
+    Warning: this page contains 100% certified
+    silliness. Proceed at your own risk. 😭
+  </p>
+
+  <div class="cat-card">
+
+    <div class="cat-face" id="catFace">😼</div>
+
+    <h3 id="catTitle">Birthday mode: ACTIVATED</h3>
+
+    <p id="catText">
+      Bro really unlocked another year of existence.
+      Absolute legend behaviour. 💀
+    </p>
+
+    <button class="primary-btn" onclick="changeCat()">
+      More Brainrot 💀
+    </button>
+
+  </div>
+
+  <p class="tiny-note">
+    NO CATS WERE DISTURBED IN THIS BIRTHDAY SURPRISE
+  </p>
+
+  <button class="primary-btn" onclick="goToPage(5)">
+    Okay, wholesome time ♡
+  </button>
+
+  <button class="secondary-btn" onclick="goToPage(3)">
+    ← Read Letter Again
+  </button>
+
+</section>
+
+
+<!-- PAGE 5: REASONS -->
+<section class="page" id="page5">
+
+  <div class="eyebrow">a tiny appreciation page</div>
+
+  <h2>Things That Make You Special ♡</h2>
+
+  <p class="subtitle">
+    Just a few little reminders for your special day.
+  </p>
+
+  <div class="reasons-grid">
+
+    <div class="reason-card">
+      <div class="reason-icon">🌷</div>
+      <h3>Your Smile</h3>
+      <p>It can make an ordinary day feel better.</p>
+    </div>
+
+    <div class="reason-card">
+      <div class="reason-icon">🧸</div>
+      <h3>Your Nature</h3>
+      <p>There's something special about being yourself.</p>
+    </div>
+
+    <div class="reason-card">
+      <div class="reason-icon">✨</div>
+      <h3>Your Energy</h3>
+      <p>You bring your own little vibe wherever you go.</p>
+    </div>
+
+    <div class="reason-card">
+      <div class="reason-icon">💌</div>
+      <h3>Just You</h3>
+      <p>You don't need to be anyone else to be special.</p>
+    </div>
+
+  </div>
+
+  <button class="primary-btn" onclick="goToPage(6)">
+    Next Surprise 🎁
+  </button>
+
+  <button class="secondary-btn" onclick="goToPage(4)">
+    ← One More Cat Meme
+  </button>
+
+</section>
+
+
+<!-- EXTRA STYLES FOR PART 2 -->
+<style>
+
+.letter-card {
+  width: min(100%, 450px);
+  max-height: 48vh;
+  overflow-y: auto;
+  text-align: left;
+  padding: 26px 23px;
+  background: #fffdf8;
+  border: 1px solid #800f2f25;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px #800f2f0c;
+  font-size: 15px;
+  line-height: 1.9;
+  margin: 5px 0 22px;
+}
+
+.letter-sign {
+  color: var(--wine);
+  font-style: italic;
+  text-align: right;
+}
+
+.cat-card {
+  width: min(100%, 340px);
+  background: #fffdf8;
+  border: 1px solid #800f2f20;
+  border-radius: 25px;
+  padding: 28px 20px;
+  box-shadow: 0 12px 35px #800f2f0c;
+}
+
+.cat-face {
+  font-size: 90px;
+  margin-bottom: 15px;
+  animation: catBounce 1.8s infinite;
+}
+
+@keyframes catBounce {
+  0%, 100% {
+    transform: rotate(-5deg) translateY(0);
+  }
+  50% {
+    transform: rotate(5deg) translateY(-8px);
+  }
+}
+
+.cat-card h3 {
+  color: var(--wine);
+  font-size: 21px;
+  margin-bottom: 12px;
+}
+
+.cat-card p {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  margin-bottom: 18px;
+  line-height: 1.8;
+}
+
+.reasons-grid {
+  width: min(100%, 440px);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 5px 0 22px;
+}
+
+.reason-card {
+  background: #fffdf8;
+  border: 1px solid #800f2f20;
+  border-radius: 18px;
+  padding: 19px 12px;
+  box-shadow: 0 6px 18px #800f2f08;
+  transition: transform 0.25s ease;
+}
+
+.reason-card:hover {
+  transform: translateY(-4px);
+}
+
+.reason-icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.reason-card h3 {
+  font-size: 16px;
+  color: var(--wine);
+  margin-bottom: 8px;
+}
+
+.reason-card p {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+@media (max-width: 350px) {
+  .reasons-grid {
+    gap: 8px;
+  }
+
+  .reason-card {
+    padding: 15px 8px;
+  }
+}
+
+</style>
+
+
+<!-- CAT BRAINROT INTERACTION -->
+<script>
+
+const catMemes = [
+  {
+    face: "😼",
+    title: "Birthday mode: ACTIVATED",
+    text: "Bro really unlocked another year of existence. Absolute legend behaviour. 💀"
+  },
+  {
+    face: "🐱",
+    title: "Meow meow supremacy",
+    text: "Official birthday cat has arrived. Cake tax is compulsory. 🎂"
+  },
+  {
+    face: "😭",
+    title: "Emotional damage",
+    text: "Another year older but still doing silly things. Never change, bro. 😭"
+  },
+  {
+    face: "🗿",
+    title: "Sigma birthday energy",
+    text: "No thoughts. Just cake, vibes, and main character energy. 🗿✨"
+  },
+  {
+    face: "😹",
+    title: "Silly goose detected",
+    text: "Today's mission: eat cake, laugh loudly, and be unbelievably iconic. 🎀"
+  },
+  {
+    face: "🐈",
+    title: "Cat distribution system",
+    text: "You have been selected for one complimentary birthday meow. MEOW. 💗"
+  }
+];
+
+let catIndex = 0;
+
+function changeCat() {
+  catIndex = (catIndex + 1) % catMemes.length;
+
+  document.getElementById("catFace").textContent =
+    catMemes[catIndex].face;
+
+  document.getElementById("catTitle").textContent =
+    catMemes[catIndex].title;
+
+  document.getElementById("catText").textContent =
+    catMemes[catIndex].text;
+}
+
+</script>
+
+
+<!-- PAGE 6 WILL BE ADDED IN PART 3 -->
+<!-- ===== PART 3: MEMORIES + FINAL SURPRISE ===== -->
+
+<!-- PAGE 6: PHOTO MEMORIES -->
+<section class="page" id="page6">
+
+  <div class="eyebrow">little moments, big memories</div>
+
+  <h2>Our Memories 📸</h2>
+
+  <p class="subtitle">
+    Some memories deserve a little place of their own.
+    These spaces are waiting for your favourite photos. ♡
+  </p>
+
+  <div class="photo-grid">
+
+    <div class="photo-card">
+      <div class="photo-placeholder">📷</div>
+      <p>Memory No. 1 ♡</p>
+      <small>Add your first photo here</small>
+    </div>
+
+    <div class="photo-card">
+      <div class="photo-placeholder">🌷</div>
+      <p>Memory No. 2 ♡</p>
+      <small>Add your second photo here</small>
+    </div>
+
+    <div class="photo-card">
+      <div class="photo-placeholder">🎀</div>
+      <p>Memory No. 3 ♡</p>
+      <small>Add your third photo here</small>
+    </div>
+
+  </div>
+
+  <button class="primary-btn" onclick="goToPage(7)">
+    One Last Surprise 🎁
+  </button>
+
+  <button class="secondary-btn" onclick="goToPage(5)">
+    ← Go Back
+  </button>
+
+</section>
+
+
+<!-- PAGE 7: FINAL SURPRISE -->
+<section class="page" id="page7">
+
+  <div class="final-card">
+
+    <div class="final-emoji" id="finalEmoji">🎂</div>
+
+    <div class="eyebrow">and finally...</div>
+
+    <h1>Happy Birthday,<br>Ashu! ♡</h1>
+
+    <p class="final-message">
+      I hope this new chapter of your life brings
+      you endless smiles, peaceful days, beautiful
+      memories, and all the happiness you deserve. 💗
+    </p>
+
+    <div class="cake-decoration">🎂 🕯️ 🎁</div>
+
+    <p class="final-note">
+      A little website, made for a special day. ♡
+    </p>
+
+    <button class="primary-btn" onclick="celebrate()">
+      Make a Wish ✨
+    </button>
+
+    <button class="secondary-btn" onclick="goToPage(1)">
+      ↻ Start Again
+    </button>
+
+  </div>
+
+</section>
+
+
+<!-- MUSIC PLAYER -->
+<div class="music-player" id="musicPlayer">
+
+  <button class="music-btn" onclick="toggleMusic()" id="musicButton">
+    ♫
+  </button>
+
+  <span id="musicLabel">Birthday vibes ♡</span>
+
+  <audio id="birthdayMusic" loop>
+    <source src="oursong.mp3" type="audio/mpeg">
+  </audio>
+
+</div>
+
+
+<!-- PART 3 STYLES -->
+<style>
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 13px;
+  width: min(100%, 430px);
+  margin: 5px 0 24px;
+}
+
+.photo-card {
+  background: #fffdf8;
+  border: 1px solid #800f2f20;
+  border-radius: 16px;
+  padding: 10px;
+  box-shadow: 0 8px 22px #800f2f08;
+  transition: transform 0.25s ease;
+}
+
+.photo-card:last-child {
+  grid-column: 1 / -1;
+  width: 60%;
+  justify-self: center;
+}
+
+.photo-placeholder {
+  height: 125px;
+  background: #f4dfe0;
+  border: 1px dashed #b9677b;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+.photo-card p {
+  color: var(--wine);
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.photo-card small {
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  opacity: 0.7;
+}
+
+.final-card {
+  width: min(100%, 390px);
+  background: #fffdf8;
+  padding: 35px 22px;
+  border: 1px solid #800f2f20;
+  border-radius: 220px 220px 24px 24px;
+  box-shadow: 0 15px 45px #800f2f0d;
+}
+
+.final-emoji {
+  font-size: 62px;
+  margin-bottom: 20px;
+  animation: gentleBounce 1.8s infinite;
+}
+
+.final-message {
+  font-size: 15px;
+  line-height: 1.9;
+  margin: 20px 0;
+}
+
+.cake-decoration {
+  font-size: 27px;
+  margin: 20px 0;
+}
+
+.final-note {
+  font-size: 12px;
+  font-style: italic;
+  margin-bottom: 22px;
+}
+
+.music-player {
+  position: fixed;
+  bottom: 14px;
+  right: 14px;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 7px 13px 7px 7px;
+  border-radius: 50px;
+  background: #fffdf8;
+  border: 1px solid #800f2f30;
+  box-shadow: 0 5px 20px #800f2f12;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+}
+
+.music-btn {
+  border: none;
+  background: var(--wine);
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+@keyframes celebration {
+  0%, 100% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(-8deg) scale(1.08);
+  }
+  75% {
+    transform: rotate(8deg) scale(1.08);
+  }
+}
+
+.celebrating {
+  animation: celebration 0.45s ease 3;
+}
+
+@media (max-width: 350px) {
+  .photo-placeholder {
+    height: 100px;
+  }
+
+  .photo-grid {
+    gap: 8px;
+  }
+}
+
+</style>
+
+
+<!-- WEBSITE NAVIGATION + INTERACTIONS -->
+<script>
+
+function goToPage(pageNumber) {
+  const pages = document.querySelectorAll(".page");
+
+  pages.forEach(function(page) {
+    page.classList.remove("active");
+  });
+
+  const targetPage = document.getElementById("page" + pageNumber);
+
+  if (targetPage) {
+    targetPage.classList.add("active");
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+}
+
+
+// Open envelope and reveal the letter button
+function openEnvelope() {
+  const envelope = document.getElementById("envelope");
+  const hint = document.getElementById("envelopeHint");
+  const button = document.getElementById("letterButton");
+
+  envelope.classList.add("open");
+  hint.textContent = "Your little letter is waiting inside ♡";
+  button.style.display = "inline-block";
+}
+
+
+// Birthday celebration
+function celebrate() {
+  const emoji = document.getElementById("finalEmoji");
+
+  emoji.textContent = "🎉";
+  emoji.classList.remove("celebrating");
+
+  // Restart the animation
+  void emoji.offsetWidth;
+  emoji.classList.add("celebrating");
+
+  createHearts();
+}
+
+
+// Create floating hearts
+function createHearts() {
+  const symbols = ["♡", "♥", "✨", "🎀", "💗"];
+
+  for (let i = 0; i < 18; i++) {
+    const heart = document.createElement("div");
+
+    heart.textContent =
+      symbols[Math.floor(Math.random() * symbols.length)];
+
+    heart.style.position = "fixed";
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.bottom = "-30px";
+    heart.style.fontSize = (16 + Math.random() * 22) + "px";
+    heart.style.color = "#800f2f";
+    heart.style.pointerEvents = "none";
+    heart.style.zIndex = "999";
+    heart.style.transition = "transform 3s linear, opacity 3s linear";
+
+    document.body.appendChild(heart);
+
+    requestAnimationFrame(function() {
+      heart.style.transform =
+        "translateY(-100vh) rotate(360deg)";
+      heart.style.opacity = "0";
+    });
+
+    setTimeout(function() {
+      heart.remove();
+    }, 3200);
+  }
+}
+
+
+// Music player
+let musicIsPlaying = false;
+
+async function toggleMusic() {
+  const music = document.getElementById("birthdayMusic");
+  const button = document.getElementById("musicButton");
+  const label = document.getElementById("musicLabel");
+
+  if (!musicIsPlaying) {
+    try {
+      await music.play();
+
+      musicIsPlaying = true;
+      button.textContent = "Ⅱ";
+      label.textContent = "Now playing ♡";
+
+    } catch (error) {
+      label.textContent = "Add oursong.mp3 first ♡";
+    }
+
+  } else {
+    music.pause();
+
+    musicIsPlaying = false;
+    button.textContent = "♫";
+    label.textContent = "Birthday vibes ♡";
+  }
+}
+
+</script>
+
+</body>
+  </html>
